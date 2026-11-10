@@ -60,7 +60,7 @@ class Rev1VirtualMidiService : MidiDeviceService() {
 
     override fun onDeviceStatusChanged(status: MidiDeviceStatus) {
         val openOutputs = status.getOutputPortOpenCount(0)
-        val openInputs = if (status.getInputPortOpen(0)) 1 else 0
+        val openInputs = if (status.isInputPortOpen(0)) 1 else 0
         MainBridgeService.updateStatus { it.copy(midiAppsConnected = maxOf(openOutputs, openInputs)) }
     }
 
