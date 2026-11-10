@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DDJ-REV1 Bridge</string>
+    <string name="notification_channel_name">Puente DDJ-REV1</string>
+    <string name="notification_channel_description">Estado del puente USB → MIDI virtual / WebSocket</string>
+    <string name="notification_title">DDJ-REV1 Bridge activo</string>
+    <string name="action_stop">Detener</string>
+    <string name="button_start">Iniciar puente</string>
+    <string name="button_stop">Detener puente</string>
+    <string name="button_rescan">Buscar controladora</string>
+</resources>

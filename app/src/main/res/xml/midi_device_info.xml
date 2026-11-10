@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<devices>
+    <device
+        manufacturer="Pioneer DJ (Bridge)"
+        product="DDJ-REV1 Virtual Bridge">
+        <!-- Entrada: lo que la app (djay) le manda a la controladora (LEDs) -->
+        <input-port name="DDJ-REV1 Bridge In" />
+        <!-- Salida: los eventos de la REV1 hacia la app -->
+        <output-port name="DDJ-REV1 Bridge Out" />
+    </device>
+</devices>

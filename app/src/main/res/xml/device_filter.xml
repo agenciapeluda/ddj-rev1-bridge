@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Pioneer DJ Corporation (0x2B73) -->
+    <usb-device vendor-id="11123" />
+    <!-- Pioneer Corporation, equipos más viejos (0x08E4) -->
+    <usb-device vendor-id="2276" />
+</resources>
